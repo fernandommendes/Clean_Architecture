@@ -2,7 +2,7 @@
 
 namespace CleanArchMvc.Application.Interfaces
 {
-    internal interface ICategoryService
+    public interface ICategoryService
     {
         Task<IEnumerable<CategoryDTO>> GetCategories();
         Task<CategoryDTO> GetById(int? id);
